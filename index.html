@@ -1,67 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>
-		Document
-	</title>
-	<title>
-	</title>
-	<style type="text/css">
-		.rx-parent.alink2 {
-			border: 1px solid #AE316F;
-			cursor: pointer;
-		}
-
-		.alink2 {
-			position: relative;
-			background: #B83B79;
-			background: -moz-linear-gradient(top, #B83B79 0%, #E063A1 100%);
-			background: -webkit-linear-gradient(top, #B83B79 0%, #E063A1 100%);
-			background: linear-gradient(to bottom, #B83B79 0%, #E063A1 100%);
-			padding: 20px;
-			z-index: 1;
-		}
-
-		.alink2::before {
-			position: absolute;
-			content: "";
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			background: #901351;
-			background: -moz-linear-gradient(top, #901351 0%, #B83B79 100%);
-			background: -webkit-linear-gradient(top, #901351 0%, #B83B79 100%);
-			background: linear-gradient(to bottom, #901351 0%, #B83B79 100%);
-			z-index: -1;
-			opacity: 0;
-		}
-
-		.alink2:hover::before {
-			opacity: 1;
-		}
-	</style>
-	<script type="text/javascript">
-		function stringVars(string, variables) {
-			return string.replace(new RegExp("\{([^\{]+)\}", "g"), function(garbage, varname) {
-				return variables[varname];
+	<head>
+		<meta charset="UTF-8">
+		<title>Multi featured HTML Button Library for your Website with CSS and jQuery implementation</title>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<link href="jquery-rxHtmlButton-0.3-min.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="jquery-rxHtmlButton-0.3-min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".alink").rxHtmlButton();
 			});
-		};
-
-		console.log(stringVars('border: 1px solid {color};',{color : "#B83B79"}));
-		var number = 42;
-		var message = `The number is ${number}`;
-
-		console.log(message);
-	</script>
-</meta>
-</head>
-<body>
-	<div class="alink2">
-		<a href="#">
-			test to verify content remains visible & on top
-		</a>
-	</div>
-</body>
+		</script>
+	</head>
+	<body>
+		<a class="alink" href="javascript:void(0)">Hover Me</a>
+	</body>
 </html>
