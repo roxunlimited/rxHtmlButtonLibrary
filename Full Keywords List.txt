@@ -1,0 +1,88 @@
+Full Keywords List
+----------------------------------------------------------------------------
+backgroundColor: String with Hash and HEX code
+Default value: "#2176B8"
+
+backgroundHoverColor: String with Hash and HEX code
+Default value: ""
+
+gradient: Boolean (true|false)
+Default value: true
+
+gradientFrom: String with fix keywords ("top" | "bottom" | "left" | "right")
+Default value: "top"
+
+backgroundBlendColor: String with Hash and HEX code
+Default value: ""
+
+backgroundBlendHoverColor: String with Hash and HEX code
+Default value: ""
+
+gradientIntensity: Integer (0 - 100)
+Default value: 30
+
+border: Boolean (true | false)
+Default value: true
+
+borderWidth: Integer (0 - 100)
+Default value: 1
+
+borderHoverWidth: Integer (0 - 100)
+Default value: null
+
+borderColor: String with Hash and HEX code
+Default value: ""
+
+borderHoverColor: String with Hash and HEX code
+Default value: ""
+
+borderIntensity: Integer (0 - 100)
+Default value: 5
+
+customText: Boolean (true | false)
+Default value: false
+
+customTextval: String
+Default value: "Let's Go"
+
+customFont: Boolean (true | false)
+Default value: true
+
+customFontStyle: String with fix keywords ("exo" | "firasans" | "livvic" | "muli" | "poppins" | "raleway" | "roboto")
+Default value: "raleway"
+
+customFontColor: String with Hash and HEX code
+Default value: ""
+
+customFontHoverColor: String with Hash and HEX code
+Default value: ""
+
+customFontWeight: Integer with fix keywords (300 | 400 | 500 | 600 | 700 | 800 | 900)
+Default value: 600
+
+customFontSize: Integer (0 - 100)
+Default value: 15
+
+customArrow: Boolean (true | false)
+Default value: false
+
+customArrowStyle: String with fix keywords ("bullet" | "double" | "jet" | "machine" | "sign" | "thick" | "thin")
+Default value: "jet"
+
+blackOverlay: Boolean (true | false)
+Default value: false
+
+roundedCorner: String with fix keywords ("big" | "calendar" | "full" | "none" | "oval" | "small" | "squircle" | "squircleAlt")
+Default value: "small"
+
+hoverExpand: Boolean (true | false)
+Default value: false
+
+customSize: String with fix keywords ("small" | "medium" | "big")
+Default value: "medium"
+
+animate: Boolean (true | false)
+Default value: true
+
+builtinTheme: String with fix keywords ("rx01" | "rx02" | "rx03" | "rx04" | "rx05")
+Default value: ""
