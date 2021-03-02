@@ -1,5 +1,5 @@
 /***
-	rxHtmlButton Library v0.3 (http://www.roxunlimited2019.com/html-button-library)
+	rxHtmlButton Library v0.3 (http://www.roxunlimited.com/html-button-library)
 	@copyright roxunlimited.com
 	@license MIT (https://github.com/roxunlimited/rxHtmlButtonLibrary/blob/master/LICENSE)
 ***/
